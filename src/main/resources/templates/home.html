@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!--<title>Home - SustenAI</title>-->
+    <meta charset="UTF-8">
+    <title th:text="home">Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<!-- Inclui o fragmento do Header -->
+<div th:insert="fragments/header :: header"></div>
+
+<h1>Bem-vindo ao SustenAI</h1>
+<p>Esta é a página inicial após o login.</p>
+<p><a th:href="@{/logout}">Sair</a></p>
+</body>
+</html>
