@@ -37,7 +37,7 @@ Feito o login, utilize os seguintes endpoints:
 
 > Vídeo da Aplicação no YouTube:
 
--
+https://www.youtube.com/watch?v=b2Ab4YocobI
 
 > Integrantes:
 1. Clara Barreto Cerqueira
