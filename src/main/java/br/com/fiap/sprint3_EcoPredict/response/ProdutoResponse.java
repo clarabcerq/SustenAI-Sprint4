@@ -11,7 +11,7 @@ public class ProdutoResponse {
     private Double preco;
     private String categoria;
     private Link link;
-    /*private String descricaoDaIA; //linha adicionada para o SpringAI
+    private String descricaoDaIA; //linha adicionada para o SpringAI
 
     public String getDescricaoDaIA() {
         return descricaoDaIA;
@@ -19,7 +19,7 @@ public class ProdutoResponse {
 
     public void setDescricaoDaIA(String descricaoDaIA) {
         this.descricaoDaIA = descricaoDaIA;
-    }*/
+    }
 
     public Long getId() {
         return id;

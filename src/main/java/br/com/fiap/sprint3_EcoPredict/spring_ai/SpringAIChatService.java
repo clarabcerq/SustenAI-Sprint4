@@ -1,7 +1,8 @@
 package br.com.fiap.sprint3_EcoPredict.spring_ai;
 
+import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
-/*
+
 @Service
 public class SpringAIChatService {
 
@@ -22,4 +23,4 @@ public class SpringAIChatService {
                 .content()
                 .replace("\n", "");
     }
-}*/
+}

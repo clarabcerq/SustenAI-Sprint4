@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
-/*
+
 @RestController
 @RequestMapping("/springai")
 @Tag(name = "Basic - Spring AI")
@@ -31,7 +31,7 @@ public class SpringAIChatController {
 
         return new ResponseEntity<>(produtoResponseDTO, HttpStatus.OK);
     }
-}*/
+}
 
 
 
